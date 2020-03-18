@@ -1,4 +1,4 @@
-const app = require('express')()
+const app = require('./node_modules/express')()
 
 app.get('/', (req, res) => {
   res.send("Hello from Appsody!");
