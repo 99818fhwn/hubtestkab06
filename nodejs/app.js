@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/resource', (req, res) => {
-  res.send("Resource from Appsody! Message Edit");
+  res.send("Resource from Appsody! Message Edit - Webhook");
 });
  
 module.exports.app = app;
