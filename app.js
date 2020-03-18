@@ -1,11 +1,13 @@
-const app = require('./node_modules/express')()
+const app = require('express')()
 
 app.get('/', (req, res) => {
   res.send("Hello from Appsody!");
 });
-
+ 
 app.get('/resource', (req, res) => {
-  res.send("Resource from Appsody! Message Edit - Webhook");
+  res.send("Hello from Resource finally");
 });
  
+
+
 module.exports.app = app;
